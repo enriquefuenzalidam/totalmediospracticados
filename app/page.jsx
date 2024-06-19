@@ -1,9 +1,4 @@
 import Link from 'next/link';
-import { Card } from 'components/card';
-import { RandomQuote } from 'components/random-quote';
-import { Markdown } from 'components/markdown';
-import { ContextAlert } from 'components/context-alert';
-import { getNetlifyContext } from 'utils';
 
 import Image from 'next/image';
 import rockett from 'public/rocket.webp';
@@ -33,7 +28,7 @@ export default function Page() {
                 <h1 className="text-white text-5xl font-semibold m-0 leading-tight">Total Medios</h1>
                 <h2 className="font-semibold text-3xl leading-tight">Hace despegar tus proyectos</h2>
                 <p className="font-medium text-black text-xl leading-normal mt-3">Social media, Páginas web, Impresión y Campañas masivas que elevan tus ideas a nuevos horizontes.</p>
-                <p className="mt-4"><a href="#contacto" className="inline-block px-6 py-3 rounded-full bg-white text-customBlue hover:bg-opacity-80 transition duration-300 ease-in-out no-underline font-semibold text-xl">Contáctanos</a></p>
+                <p className="mt-5"><a href="#contacto" className="inline-block px-6 py-3 rounded-full bg-white text-customBlue hover:bg-opacity-80 transition duration-300 ease-in-out no-underline font-semibold text-xl">Contáctanos</a></p>
             </div>
             <div className="flex justify-end">
                 <Image src={rockett} alt="Cohete 1" title="GIF de David Montero de Pixabay" className="hidden sm:block" width="610" />
