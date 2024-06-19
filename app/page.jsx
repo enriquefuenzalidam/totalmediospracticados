@@ -54,7 +54,7 @@ export default function Page() {
             </p>
         </section>
 
-        <section className="bg-customBlue flex flex-col items-center sm:flex-row sm:justify-between sm:items-center -mt-8 sm:-mt-16 md:-mt-16 lg:-mt-16 h-610px md:h-843px overflow-hidden">
+        <section id="servicios" className="scroll-m-header bg-customBlue flex flex-col items-center sm:flex-row sm:justify-between sm:items-center -mt-8 sm:-mt-16 md:-mt-16 lg:-mt-16 h-610px md:h-843px overflow-hidden">
             <div className="flex flex-col items-start text-left p-12 sm:w-1/2">
                 <h2 className="font-semibold text-3xl leading-tight">Social Media</h2>
                 <p className="font-medium text-black text-sm sm:text-md md:text-lg lg:text-xl leading-normal mt-6">Nuestro servicio de social media mensual es tu solución integral para una presencia efectiva en línea. Nos encargamos de gestionar tus perfiles en redes sociales, creando contenido cautivador y relevante que conecte con tu audiencia.</p>
@@ -95,7 +95,7 @@ export default function Page() {
             </div>
         </section>
 
-        <section className="bg-customBlue -mt-8 sm:-mt-16 md:-mt-16 lg:-mt-16 p-12">
+        <section id="nosotros" className="scroll-m-header bg-customBlue -mt-8 sm:-mt-16 md:-mt-16 lg:-mt-16 p-12">
                 <h2 className="text-center font-semibold text-3xl leading-tight text-white">Un poco sobre nosotros</h2>
                 <p className="text-center font-medium text-black text-sm sm:text-md md:text-lg lg:text-xl leading-normal mt-4">En Total Medios nos dedicamos a impulsar tu presencia en el mundo digital y físico mediante soluciones creativas y efectivas.</p>
         </section>
@@ -119,7 +119,7 @@ export default function Page() {
                 </div>
         </section>
 
-        <section className="bg-white flex flex-col items-center sm:flex-row sm:justify-between sm:items-center -mt-8 sm:-mt-16 md:-mt-16 lg:-mt-16 overflow-hidden">
+        <section id="contacto" className="scroll-m-header bg-white flex flex-col items-center sm:flex-row sm:justify-between sm:items-center -mt-8 sm:-mt-16 md:-mt-16 lg:-mt-16 overflow-hidden">
             <div className="flex flex-col items-start text-left p-12 sm:w-1/2">
                 <h2 className="font-semibold text-3xl leading-tight text-customBlue">Mantengamos el contacto</h2>
                 <p className="font-medium text-black text-sm sm:text-md md:text-lg lg:text-xl leading-normal mt-6">¿Listo para llevar tu marca al siguiente nivel? ¡No dudes en ponerte en contacto con Total Medios hoy mismo y comienza a hacer realidad tus objetivos comerciales.</p>

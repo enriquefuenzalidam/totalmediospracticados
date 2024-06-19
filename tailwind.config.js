@@ -28,8 +28,16 @@ module.exports = {
             height: {
               '843px': '843px',
               '610px': '610px'
+            },
+            scrollMargin: {
+              'header': '4rem', // Adjust this value based on the height of your fixed menu
             }
         }
+    },
+    variants: {
+      extend: {
+        scrollMargin: ['responsive'], // Ensure it works with responsive design
+      },
     },
     daisyui: {
         themes: [

@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
             <head>
                 <link rel="icon " href="/favicon.svg" sizes="any" />
             </head>
-            <body className="antialiased text-white">
+            <body className="antialiased text-white" id="inicio">
             <Header />
             {children}
             </body>
