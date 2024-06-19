@@ -18,6 +18,12 @@ import foto1 from 'public/foto1.jpg';
 import foto2 from 'public/foto2.jpg';
 import foto3 from 'public/foto3.jpg';
 import foto4 from 'public/foto4.jpg';
+import cohete from 'public/cohete.png';
+import luna from 'public/luna.png';
+import planeta from 'public/planeta.png';
+import facebookglobe from 'public/facebook globe .png';
+import instagramglobe from 'public/instagram globe .png';
+import linkedinglobe from 'public/linkedin globe .png';
 
 export default function Page() {
     return (
@@ -89,6 +95,56 @@ export default function Page() {
             </div>
         </section>
 
+        <section className="bg-customBlue -mt-8 sm:-mt-16 md:-mt-16 lg:-mt-16 p-12">
+                <h2 className="text-center font-semibold text-3xl leading-tight text-white">Un poco sobre nosotros</h2>
+                <p className="text-center font-medium text-black text-sm sm:text-md md:text-lg lg:text-xl leading-normal mt-4">En Total Medios nos dedicamos a impulsar tu presencia en el mundo digital y físico mediante soluciones creativas y efectivas.</p>
+        </section>
+
+        <section className="bg-black -mt-8 sm:-mt-16 md:-mt-16 lg:-mt-16">
+                <h2 className="text-left font-semibold text-3xl leading-tight text-white pt-24 pr-12 pb-12 pl-12">En Total Medios te ofrecemos:</h2>
+                <div className="bg-customBlue p-12 mt-0 sm:mr-8 sm:mb-8 ml-0 ">
+                    <Image src={luna} width="50" />
+                    <h3 className="text-3xl text-white font-bold mt-6">Compromiso</h3>
+                    <p className="text-left font-medium text-black text-sm sm:text-md md:text-lg lg:text-xl leading-normal mt-4">En Total Medios, nos comprometemos a proporcionarte soluciones integrales y personalizadas que impulsen el éxito de tu negocio.</p>
+                </div>
+                <div className="bg-andereBlau p-12 mt-0 sm:ml-8 sm:mb-8 mr-0">
+                    <Image src={cohete} width="50" />
+                    <h3 className="text-3xl text-white font-bold mt-6">Responsabilidad</h3>
+                    <p className="text-left font-medium text-black text-sm sm:text-md md:text-lg lg:text-xl leading-normal mt-4">En Total Medios, asumimos con seriedad nuestra responsabilidad hacia nuestros clientes, comunidad y medio ambiente. Nos comprometemos a ofrecer servicios de alta calidad que cumplan con los más altos estándares éticos y profesionales.</p>
+                </div>
+                <div className="bg-white p-12 mt-0 sm:mr-8 mb-8 ml-0 ">
+                <Image src={planeta} width="50" />
+                    <h3 className="text-3xl text-customBlue font-bold mt-6">Innovación</h3>
+                    <p className="text-left font-medium text-black text-sm sm:text-md md:text-lg lg:text-xl leading-normal mt-4">En Total Medios, la innovación es el motor que impulsa cada uno de nuestros proyectos. Estamos comprometidos a permanecer a la vanguardia de la industria, explorando constantemente nuevas tecnologías y tendencias emergentes para ofrecer soluciones creativas y efectivas a nuestros clientes.</p>
+                </div>
+        </section>
+
+        <section className="bg-white flex flex-col items-center sm:flex-row sm:justify-between sm:items-center -mt-8 sm:-mt-16 md:-mt-16 lg:-mt-16 overflow-hidden">
+            <div className="flex flex-col items-start text-left p-12 sm:w-1/2">
+                <h2 className="font-semibold text-3xl leading-tight text-customBlue">Mantengamos el contacto</h2>
+                <p className="font-medium text-black text-sm sm:text-md md:text-lg lg:text-xl leading-normal mt-6">¿Listo para llevar tu marca al siguiente nivel? ¡No dudes en ponerte en contacto con Total Medios hoy mismo y comienza a hacer realidad tus objetivos comerciales.</p>
+                <p className="mt-8 w-full flex justify-center space-x-10">
+                        <a href="#" className=""><Image src={facebookglobe} alt="" width="60" /></a>
+                        <a href="#" className=""><Image src={instagramglobe} alt="" width="60" /></a>
+                        <a href="#" className=""><Image src={linkedinglobe} alt="" width="60" /></a>
+                </p>
+            </div>
+            <div className="bg-customBlue flex flex-col items-start text-left p-12 sm:w-1/2">
+                <form action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="1c587cd2-b13e-4740-a055-2e3f1dc15c18" />
+                    <input className="p-3 w-full text-black rounded-md" type="text" name="nombre" required="" placeholder="Nombre" />
+                    <input className="mt-8 p-3 w-full text-black rounded-md" type="email" name="email" required="" placeholder="Correo electrónico" />
+                    <input className="mt-8 p-3 w-full text-black rounded-md" type="number" name="numero" required="" placeholder="Número de teléfono" />
+                    <input className="mt-8 mb-8 p-3 w-full text-black rounded-md" type="text" name="Asunto" required="" placeholder="Asunto del mensaje" />
+                    <textarea className="p-3 w-full text-black rounded-md" name="mensaje" id="" cols="30" rows="10" required="" placeholder="Mensaje"></textarea>
+                    <input className="mt-8 w-full inline-block px-4 py-2 sm:px-6 sm:py-3 rounded-full bg-white text-customBlue hover:bg-opacity-80 transition duration-300 ease-in-out no-underline font-semibold text-base sm:text-ml" type="submit" class="btn-envio" value="ENVIAR" />
+                </form>
+            </div>
+        </section>
+
+        <section className="bg-black -mt-8 sm:-mt-16 md:-mt-16 lg:-mt-16 p-12">
+                <p className="text-left font-medium text-white text-sm sm:text-md md:text-lg lg:text-xl leading-normal ">©Total Medios Derechos reservados.</p>
+        </section>
 
     </main>
     );

@@ -10,7 +10,8 @@ module.exports = {
             },
             colors: {
                 neutral: colors.neutral,
-                customBlue: '#1E5DB2'
+                customBlue: '#1E5DB2',
+                andereBlau: '#22BEEB'
             },
             fontFamily: {
                 sans: ['Helvetica Neue', 'Arial', 'Inter', ...defaultTheme.fontFamily.sans]
