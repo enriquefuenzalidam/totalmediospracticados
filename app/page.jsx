@@ -2,6 +2,7 @@ import Link from 'next/link';
 
 import Image from 'next/image';
 import rockett from 'public/rocket.webp';
+import rocketg from 'public/rocket.gif';
 import googleads from 'public/google.png';
 import googlepartners from 'public/googlepartners.png';
 import linkedin from 'public/linkedin.png';
@@ -31,7 +32,7 @@ export default function Page() {
                 <p className="mt-5"><a href="#contacto" className="inline-block px-6 py-3 rounded-full bg-white text-customBlue hover:bg-opacity-80 transition duration-300 ease-in-out no-underline font-semibold text-xl">Contáctanos</a></p>
             </div>
             <div className="flex justify-end">
-                <Image src={rockett} alt="Cohete 1" title="GIF de David Montero de Pixabay" className="hidden sm:block" width="610" />
+                <Image src={rocketg} alt="Cohete 1" title="GIF de David Montero de Pixabay" className="hidden sm:block" width="610" />
             </div>
         </section>
         <section className="flex flex-col items-center justify-center bg-white py-8 sm:py-12 md:py-16 lg:py-20 -mt-16">
