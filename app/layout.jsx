@@ -30,7 +30,7 @@ export default function RootLayout({ children }) {
     return (
         <html lang="en" data-theme="lofi">
             <head>
-                <title>Total Medios</title>
+                <title> Total Medios </title>
                 <link rel="icon " href="/favicon.svg" sizes="any" />
             </head>
             <body className="antialiased text-white" id="inicio">
