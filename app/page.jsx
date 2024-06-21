@@ -19,7 +19,11 @@ import planeta from 'public/planeta.png';
 import facebookglobe from 'public/facebook globe .png';
 import instagramglobe from 'public/instagram globe .png';
 import linkedinglobe from 'public/linkedin globe .png';
-
+export const metadata = {
+    title: {
+        default: 'Total Medios'
+    }
+};
 export default function Page() {
     return (
     <main className="flex flex-col gap-8 sm:gap-16 pt-12 sm:pt-16 md:pt-20 text-lg sm:text-xl md:text-2xl bg-black">
