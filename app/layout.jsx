@@ -17,6 +17,7 @@ export default function RootLayout({ children }) {
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
+
             gtag('config', 'G-TLZ32T20BM');
         `;
         document.head.appendChild(script2);
@@ -30,7 +31,6 @@ export default function RootLayout({ children }) {
     return (
         <html lang="en" data-theme="lofi">
             <head>
-                <link rel="icon " href="/favicon.svg" sizes="any" />
             </head>
             <body className="antialiased text-white" id="inicio">
             <Header />
