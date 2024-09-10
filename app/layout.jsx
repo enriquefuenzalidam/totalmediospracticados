@@ -29,7 +29,7 @@ export default function RootLayout({ children }) {
         };
     }, []);
     return (
-        <html lang="en" data-theme="lofi" className={` scroll-smooth `}>
+        <html lang="es" className={` scroll-smooth `}>
             <head>
             </head>
             <body className="antialiased text-white" id="inicio">
